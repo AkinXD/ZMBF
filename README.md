@@ -13,7 +13,7 @@
 
 * **Athour Script**
 
-1. [Zee K World](https://github.com/AkinXD)
+1. [Zee K World](https://github.com/ZKWorld)
 2. [Mr.Risky](https://github.com/Dumai-991)
 
 ### Akun Sosila And Donasi
