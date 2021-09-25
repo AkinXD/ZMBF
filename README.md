@@ -19,7 +19,7 @@
 ### Akun Sosila And Donasi
 * <a href="https://m.facebook.com/Bang.badru23"><img src="https://raw.githubusercontent.com/Dumai-991/Dumai-991/main/Image/images.png" alt="alt text" width="20" height="20">**Facebook**</a>
 * <a href="https://wa.me/628811403653?text=Assalamualaikum+Warohmatullahi+wabaokatuh"><img src="https://raw.githubusercontent.com/Dumai-991/Dumai-991/main/Image/images%20(1).png" alt="alt text" width="20" height="20">**WhatsApp**</a>
-* <a href="https://github.com/AkinXD/license/blob/main/IMG_20210925_075318.jpg"><img src="https://github.com/AkinXD/license/blob/main/IMG_20210925_075318.jpg" alt="alt text" width="20" height="20">**Dana**</a>
+* <a href="https://raw.githubusercontent.com/AkinXD/license/blob/main/20210925_075832.jpg"><img src="https://raw.githubusercontent.com/Dumai-991/Dumai-991/main/Image/images.jpeg" alt="alt text" width="20" height="20">**Dana**</a>
 ### How To Install
 
 * **Bagi Yang Belum Install Tools**
