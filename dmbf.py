@@ -302,15 +302,15 @@ def cracking_menu():
 	print   '\033[0;97m┌'+48*'─'+ '┐'
 	print("├               ├ Cracking Menu ┤	         ┤")
 	print("├               └───────────────┘                ┤")
-	print("├ [01] Crack Dari Teman                        ┤")
-	print("├ [02] Crack Dari Public                         ┤")
-	print("├ [03] Crack Dari Followers                      ┤")
-	print("├ [04] Crack Dari Public Followers               ┤")
-	print("├ [05] Crack Dari File Name                      ┤")
-	print("├ [06] Check Akun Hasil Chekpoin         ┤")
+	print("├ [01] Crack From Friends                        ┤")
+	print("├ [02] Crack From Public                         ┤")
+	print("├ [03] Crack From Followers                      ┤")
+	print("├ [04] Crack From Public Followers               ┤")
+	print("├ [05] Crack From File Name                      ┤")
+	print("├ [06] Check Cracked Checkpoint Accounts         ┤")
 	print("├ [07] Facebook Username Becomes IDz             ┤")
-	print("├ [08] Logout Akun Facebook                      ┤")
-	print("├ [eE] Keluar Program                              ┤")
+	print("├ [08] Logout From Facebook                      ┤")
+	print("├ [eE] Exit Program                              ┤")
 	print   '\033[0;97m└'+48*'─'+ '┘'
 	zk = raw_input("\n \033[0;97m [\033[0;97m➣\033[0;97m] Choose An Option: ")
 	if zk =="":
