@@ -33,18 +33,18 @@ pip install bs4
 pip install requests
 pip2 install requests
 pip2 install bs4
-git clone https://github.com/AkinXD/ZMBF
-cd ZMBF
+git clone https://github.com/AkinXD/simplebf
+cd simplebf
 ```
 
 * **Bagi Yang Sudah Install Bahan**
 ```
-cd $HOME/ZMBF
+cd $HOME/simplebf
 git pull
 ```
 
 * **How To Start Tools**
 ```
-cd $HOME/ZMBF
-python2 zmbf.pyc
+cd $HOME/simplebf
+python2 simplebf.py
 ```
